@@ -1,6 +1,6 @@
 # scroll_loader
 
-Targets the height of the page below the server-rendered right sidebar on story pages and injects Google DFP ads and dynamic articles from U-T San Diego. 
+Targets the height of the page  and injects Google DFP ads and dynamic articles using AJAX. 
 
 Content loads when user scrolls past threshold div.
 
