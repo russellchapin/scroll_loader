@@ -1,4 +1,4 @@
-# scroll_loader
+# scroll_loader.js
 
 Targets the height of the page  and injects Google DFP ads and dynamic articles using AJAX. 
 
