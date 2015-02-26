@@ -2,11 +2,10 @@ var r_app = window.r_app || {};
 
 r_app.scroll_loader = function() {
 
-  $(document).ready(function() {
-    
     /**
     * If height of div below sidebar is > 500px, the size of two IAB Medium-Rectangle ads, then create a div and automatically append one Medium-Rectangle ad placement.
     */
+  $(document).ready(function() {
     if ($("#content > div > div > article" ).height() - $("#sidebar").height() > ($("#auto_boxy").outerHeight(true)*3) + $("#more_from_ut").outerHeight(true)){
 
         window.addEventListener('scroll', article_loader);
@@ -63,7 +62,7 @@ r_app.scroll_loader = function() {
       }
     }
     /**
-    * Abstract query parameters for ease of maintenance
+    * Abstract query parameters for ease of maintenance. 
     */
     function get_data() {
         var data = {};
