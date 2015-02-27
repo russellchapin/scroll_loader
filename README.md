@@ -1,5 +1,7 @@
 # scroll_loader.js
 
+Scroll-triggered content hopper.
+
 Targets the height of the page and injects Google DFP ads, articles or whatever dynamic content you'd like using AJAX.
 
 Content loads when user scrolls past threshold div.
