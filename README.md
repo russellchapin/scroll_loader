@@ -6,6 +6,6 @@ Targets the height of the page and injects Google DFP ads, articles or whatever 
 
 Content loads when user scrolls past threshold div and iterates based off of an arbitrary interval. 
 
-This is done in an effort to remove pagination from U-T San Diego stories, but maintain advertising impression volume.
+This was done in an effort to remove pagination from U-T San Diego stories, but maintain advertising impression volume.
 
 REQUIRES JQUERY
